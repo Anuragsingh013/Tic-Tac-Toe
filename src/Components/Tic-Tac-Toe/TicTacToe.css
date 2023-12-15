@@ -64,6 +64,11 @@
   .title{
     font-size:30px;
   }
+  .title img{
+    padding:10px;
+    height:22px;
+  }
+  
   .board{
     display:flex;
     justify-content:center;
@@ -89,15 +94,9 @@
     width:150px;
     margin-top:40px;
   }
-  .title img{
-    height:30px;
-  }
+  
 
 }
-
-
-
-
 
 
 

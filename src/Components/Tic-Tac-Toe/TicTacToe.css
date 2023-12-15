@@ -58,4 +58,52 @@
   height:50px;
 }
 
+/* make this game responsive   */
+
+@media only screen and (max-width: 625px) {
+  .title{
+    font-size:30px;
+  }
+  .board{
+    display:flex;
+    justify-content:center;
+    align-content:center;
+    height:50%;
+    width:90%;
+    text-align:center;
+  }
+  .boxes{
+    height:120px;
+    width:100px;
+  }
+
+  .boxes img{
+    margin:auto;
+    height:45px
+    
+  }
+  
+  .reset{
+    font-size:20px;
+    height:60px;
+    width:150px;
+    margin-top:40px;
+  }
+  .title img{
+    height:30px;
+  }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
